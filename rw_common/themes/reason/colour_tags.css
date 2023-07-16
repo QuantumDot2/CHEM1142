@@ -1,0 +1,120 @@
+/* Site Background */
+body{background-color:#292929;}
+
+/* Site Title */
+header #title a,
+header #title a:hover,
+.photo-navigation,
+.photo-links a{color:#FFFFFF;}
+.photo-links{color:#292929;}
+
+/* Site Slogan */
+header h2{color:#FFFFFF;}
+
+/* Site Breadcrumb & Extras */
+ul#breadcrumb,
+form > div textarea.form-input-field,
+form > div input.form-input-field[type="text"],
+form > div input.form-input-button[type="submit"],
+form > div input.form-input-button[type="reset"]{background:#EEEEEE;}
+
+@media screen and (max-width: 770px) {
+
+	/* Nav Link Current*/
+	#wrapper nav > ul > li a.current:before,
+	#wrapper nav > ul > li a.currentAncestor:before{
+		color:#004EA2;
+	}
+}
+
+@media screen and (min-width: 771px) {
+
+	/* Site Header Background */
+
+	/* Nav Links */
+	#wrapper nav > ul > li > a {color:#CCCCCC;}
+	#wrapper nav > ul > li.parent > a:before{
+		border-color: #CCCCCC transparent transparent transparent;
+	}
+
+	/* Nav Links Hover */
+	#wrapper nav > ul > li:hover a,
+	#wrapper nav > ul > li.open a{color:#111111;}
+	#wrapper nav > ul > li.parent:hover > a:before,
+	#wrapper nav > ul > li.parent.open > a:before{
+		border-color: #111111 transparent transparent transparent;
+	}
+
+	/* Nav Links Hover Background */
+	#wrapper nav > ul > li:hover > a,
+	#wrapper nav > ul > li:hover ul,
+	#wrapper nav > ul > li.open > a,
+	#wrapper nav > ul > li.open ul{
+		background-color: #F1F1F1;
+	}
+	/* Nav Link Current*/
+	#wrapper nav > ul > li > a.current,
+	#wrapper nav > ul > li > a.currentAncestor{
+		color:#FFFFFF;
+	}
+	#wrapper nav > ul > li.parent > a.current:before,
+	#wrapper nav > ul > li.parent > a.currentAncestor:before{
+		border-color: #FFFFFF transparent transparent transparent;
+	}
+	/* Nav Link Current Background */
+	#wrapper nav > ul > li > a.current,
+	#wrapper nav > ul > li > a.currentAncestor{
+		background-color: #004EA2;
+		text-shadow: 0 1px 1px #003488;
+	}
+	/* Nav Links Sub Hover */
+	#wrapper nav > ul > li li a:hover{color:#2780C6;}
+
+	/* Nav Links Sub Current*/
+	#wrapper nav > ul > li li a.current,
+	#wrapper nav > ul > li li a.currentAncestor{
+		color:#2780C6;
+	}
+}
+
+/* Content Background */
+#container {background-color: #FFFFFF;}
+
+/* Content Text */
+#content, ul#breadcrumb a{color:#666666;}
+
+/* Content Headings */
+#content h1,#content h2,#content h3,#content h4,#content h5,#content h6,
+h1.blog-entry-title,#content h1.blog-entry-title a,.filesharing-item-title a,.album-title{color: #444444;}
+
+/* Content Links */
+#content a, ul#breadcrumb li:last-child a{color:#1E8AC4;}
+
+/* Content Link Hover */
+#content a:hover{color:#999999;}
+
+/* Sidebar Background */
+#container aside .content,
+#container aside h2#sideTitle{background-color: #0E64B0;}
+
+/* Sidebar Text */
+aside{color:#FFFFFF;}
+
+/* Sidebar Headings */
+aside h1,aside h2,aside h3,aside h4,aside h5,aside h6,
+#blog-categories::before, #blog-archives::before, ul.blog-tag-cloud::before, #blog-rss-feeds::before{color: #FFFFFF;}
+
+/* Sidebar Links */
+aside a{color:#CCCCCC;}
+
+/* Sidebar Link Hover */
+aside a:hover{color:#FFFFFF;}
+
+/* Footer Background */
+footer{background-color: #0F3E7B;color:#FFFFFF;}
+
+/* Footer Links */
+footer a{color:#FFFFFF;}
+
+/* Footer Link Hover */
+footer a:hover{color:#FFFFFF;}
